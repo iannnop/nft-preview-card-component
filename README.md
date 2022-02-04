@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Vercel Live Site URL](https://your-live-site-url.com)
+- [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-react-9gHPIULT8)
+- [Vercel Live Site URL](https://nft-preview-card-component-umber.vercel.app/)
 
 ## My process
 
@@ -56,7 +56,7 @@ Also, hover effects are pretty cool. I think adding small touches like transitio
 
 I want to learn more about how to structure css files because sometimes I feel like I'm having trouble looking for specific css properties affecting my code. For example, I tried to make the overlay hover the same size as the image, but the container height was always slightly larger than the image height.
 
-In the end, I used `flex-shrink: 1` on the container to fix it, but I want a better way to structure and debug my code.
+In the end, I used `flex-shrink: 1` on the container to fix it, but I want a better way to structure and debug my code. Maybe adding comments would help.
 
 ### Useful resources
 
