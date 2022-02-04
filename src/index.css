@@ -1,10 +1,26 @@
-body {
+:root {
+  --font-main: 'Outfit', san-serif;
+
+  --color-soft-blue: hsl(215,51%,70%);
+  --color-cyan: hsl(178,100%,50%);
+  --color-main-bg: hsl(217,54%,11%);
+  --color-card-bg: hsl(216,50%,16%);
+  --color-line: hsl(215,32%,27%);
+  --color-white: hsl(0,0%,100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background-color: var(--color-main-bg);
 }
 
 code {
